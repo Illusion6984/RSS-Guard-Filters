@@ -3,10 +3,10 @@ Some RSS Guard filters. I tried using the examples provided in the website and t
 
 # Set Label depending on Condition
 
-'''
+```
 // Keyword and label definition
-const keyword = 'steam';
-const labelName = 'Steam';
+const keyword = 'dog';
+const labelName = 'Dog';
 
 function filterMessage(msg) {
     if (msg && msg.title) {
@@ -25,17 +25,18 @@ if (typeof msg !== 'undefined') {
 } else {
     console.error('Error: msg is not defined.');
 }
-'''
+```
 
-# Multiple Condition Labeling
+# Multiple Conditions Labeling
+This will handle several separate labels at once with the purpose to not clutter the filters. 
 
-'''
+```
 // Array of conditions and their corresponding labels
 const conditionsAndLabels = [
-    { condition: 'steam', label: 'Steam' },
-    { condition: 'notification', label: 'Notifications' },
-    { condition: 'tired', label: 'Tired stuff' },
-    { condition: 'upgrade', label: 'Upgrades' }
+    { condition: 'dog', label: 'Dog' },
+    { condition: 'cat', label: 'Cat' },
+    { condition: 'stock', label: 'Stocks' },
+    { condition: 'tech', label: 'Tech' }
 ];
 
 // Function to filter and label the current message
@@ -62,4 +63,4 @@ if (typeof msg !== 'undefined') {
 } else {
     console.error('Error: msg is not defined.');
 }
-'''
+```
