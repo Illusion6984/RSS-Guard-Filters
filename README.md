@@ -1,7 +1,7 @@
 # RSS-Guard-Filters
-Some RSS Guard filters. I tried using the examples provided in the website and they did not work for me. Thus, I decided to create my own, and share it in the hopes it helps someone else. 
+I've created some custom RSS Guard filters that I'd like to share with you. After trying out the examples provided on the website without success, I decided to experiment and come up with my own solutions. Needless to say, it is an incredible tool and RSS reader. 
 
-For the labels, just be sure the previously create the label with the same name for it to work. 
+To ensure compatibility, please note that it's essential to create labels with the same name before using these filters. This will help prevent any issues or errors.
 
 # Set Label depending on Condition
 
