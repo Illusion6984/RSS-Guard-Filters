@@ -1,5 +1,5 @@
 # RSS-Guard-Filters
-I've created some custom RSS Guard filters that I'd like to share with you. After trying out the examples provided on the website without success, I decided to experiment and come up with my own solutions. Needless to say, it is an incredible tool and RSS reader. 
+I've created some custom RSS Guard filters that I'd like to share. After trying out the examples provided on the website without success, I decided to experiment and come up with my own solutions. Needless to say, it is an incredible tool and RSS reader. 
 
 To ensure compatibility, please note that it's essential to create labels with the same name before using these filters. This will help prevent any issues or errors.
 
