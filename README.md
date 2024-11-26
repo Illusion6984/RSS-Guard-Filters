@@ -66,3 +66,40 @@ if (typeof msg !== 'undefined') {
     console.error('Error: msg is not defined.');
 }
 ```
+# Regex Queries Tips
+
+To activate the Regex Queries, enable "Probes" when selecting additional nodes. This option is located among "Important", "labels", and "Unread."
+
+## AND / OR Operators
+
+For 'OR', use a vertical bar, `|`, without any spaces before and after:
+
+```
+dog|cat
+```
+
+For 'AND', put the words with a space as separation. This will match the words in order of appearance:
+
+```
+dog cat
+```
+
+When word order isn't important, lookaheads can help. However, they do slow down the query significantly. I'm keeping an eye out for alternative solutions to improve efficiency:
+
+```
+(?=.*cat)(?=.*dog)(?=.*gull)
+```
+
+## Case Sensitivity 
+
+"Regex Queries" are **case sensitive** by default. To perform a case-insensitive search, prefix your query with the `-i` flag:
+
+
+```
+(?i)dog
+```
+
+```
+(?i)dog|cat|seagull
+```
+
